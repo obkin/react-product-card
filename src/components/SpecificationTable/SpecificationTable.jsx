@@ -1,4 +1,5 @@
 import React from 'react';
+import './SpecificationTable.css';
 
 const SpecificationTable = ({ specifications }) => {
   return (

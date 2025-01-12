@@ -1,4 +1,5 @@
 import React from 'react';
+import './ModelViewer.css';
 
 const ModelViewer = ({ modelProps }) => {
   return (

@@ -1,0 +1,17 @@
+#model-viewer {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    background-color: #e0e0e0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+  
+#model-viewer p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}

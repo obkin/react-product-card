@@ -1,0 +1,22 @@
+.product-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.product-header h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+  
+.product-header p {
+    font-size: 1rem;
+    color: #777;
+    margin: 10px 0;
+}
+  
+.product-price {
+    font-size: 1.2rem;
+    color: #00aaff;
+    font-weight: bold;
+}
