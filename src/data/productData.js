@@ -5,9 +5,11 @@ export const product = {
 };
 
 export const images = [
-  { src: 'https://via.placeholder.com/150', alt: 'Product 1' },
-  { src: 'https://via.placeholder.com/150', alt: 'Product 2' },
-  { src: 'https://via.placeholder.com/150', alt: 'Product 3' },
+  { src: 'https://via.placeholder.com/150', alt: 'image-1' },
+  { src: 'https://via.placeholder.com/150', alt: 'image-2' },
+  { src: 'https://via.placeholder.com/150', alt: 'image-3' },
+  { src: 'https://via.placeholder.com/150', alt: 'image-4' },
+  { src: 'https://via.placeholder.com/150', alt: 'image-5' },
 ];
 
 export const specifications = {
