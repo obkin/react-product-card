@@ -1,14 +1,12 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ name, description, price }) => {
   return (
-    <div>
-      <header className="product-header">
-        <h1>Product Name</h1>
-        <p>Short description...</p>
-        <span className="product-price">Price: $199</span>
-      </header>
-    </div>
+    <header className="product-header">
+      <h1>{name}</h1>
+      <p>{description}</p>
+      <span className="product-price">{price}</span>
+    </header>
   );
 };
 
