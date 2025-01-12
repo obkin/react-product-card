@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = ({ name, description, price }) => {
+const Header = ({ product }) => {
   return (
     <header className="product-header">
-      <h1>{name}</h1>
-      <p>{description}</p>
-      <span className="product-price">{price}</span>
+      <h1>{product.name}</h1>
+      <p>{product.description}</p>
+      <span className="product-price">{product.price}</span>
     </header>
   );
 };
