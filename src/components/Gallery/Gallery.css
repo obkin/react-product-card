@@ -1,18 +1,50 @@
 #gallery {
+    width: 100%;
+    max-width: 600px; /* Ширина галереї */
+    margin: 0 auto; /* Центрування */
+    position: relative;
+}
+
+/* Стилі для зображень */
+.gallery-image {
+    width: 100%; /* Робимо зображення адаптивним */
+    height: auto;
+    display: block;
+    border-radius: 0px; /* Задай кути, якщо потрібно */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Додаємо тінь */
+}
+
+/* Базові стилі для Swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
     display: flex;
-    gap: 15px;
-    overflow-x: auto;
-    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-  
-#gallery img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+
+/* Пагінація */
+.swiper-pagination-bullet {
+    background: #555; /* Колір пагінації */
+    opacity: 0.7;
 }
-  
-#gallery img:hover {
-    transform: scale(1.1);
+
+.swiper-pagination-bullet-active {
+    background: #000; /* Колір активної точки */
+}
+
+/* Навігаційні кнопки */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000; /* Колір кнопок */
+    transition: color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #ff5722; /* Колір кнопок при наведенні */
 }

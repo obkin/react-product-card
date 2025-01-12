@@ -5,11 +5,30 @@ export const product = {
 };
 
 export const images = [
-  { src: 'https://via.placeholder.com/150', alt: 'image-1' },
-  { src: 'https://via.placeholder.com/150', alt: 'image-2' },
-  { src: 'https://via.placeholder.com/150', alt: 'image-3' },
-  { src: 'https://via.placeholder.com/150', alt: 'image-4' },
-  { src: 'https://via.placeholder.com/150', alt: 'image-5' },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-001-1-909731.jpg',
+    alt: 'image-1',
+  },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-002-1-909731.jpg',
+    alt: 'image-2',
+  },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-003-1-909731.jpg',
+    alt: 'image-3',
+  },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-050-1-825107_3.jpg',
+    alt: 'image-4',
+  },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-051-1-825107_3.jpg',
+    alt: 'image-5',
+  },
+  {
+    src: 'https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/0/8/087AT-22X-052-1-825107_3.jpg',
+    alt: 'image-6',
+  },
 ];
 
 export const specifications = {
