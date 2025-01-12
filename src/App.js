@@ -3,12 +3,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="product-header">
-        <h1>Product Name</h1>
-        <p>Short description...</p>
-        <span className="product-price">Price: $199</span>
-      </header>
-
       <div id="gallery" className="product-gallery">
         {/* <!-- Photos --> */}
       </div>
