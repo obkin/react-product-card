@@ -1,8 +1,8 @@
 import './App.css';
-import Gallery from './components/Gallery';
-import Header from './components/Header';
-import ModelViewer from './components/ModelViewer';
-import SpecificationTable from './components/SpecificationTable';
+import Gallery from './components/Gallery/Gallery';
+import Header from './components/Header/Header';
+import ModelViewer from './components/ModelViewer/ModelViewer';
+import SpecificationTable from './components/SpecificationTable/SpecificationTable';
 import {
   product,
   images,
